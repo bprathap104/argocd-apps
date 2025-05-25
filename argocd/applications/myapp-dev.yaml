@@ -14,7 +14,6 @@ spec:
   source:
     repoURL: https://github.com/bprathap104/myapp-gitops.git
     targetRevision: HEAD
-    path: myapp-chart
     helm:
       valueFiles:
         - values.yaml
