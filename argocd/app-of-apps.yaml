@@ -12,7 +12,6 @@ spec:
   source:
     repoURL: https://github.com/bprathap104/myapp-gitops.git
     targetRevision: HEAD
-    path: argocd/applications
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
