@@ -10,8 +10,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/bprathap104/myapp-gitops.git
+    repoURL: https://github.com/bprathap104/argocd-apps.git
     targetRevision: HEAD
+    path: argocd/
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
