@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-org/myapp-gitops.git
+    repoURL: https://github.com/bprathap104/myapp-gitops.git
     targetRevision: HEAD
     path: argocd/applications
   destination:
